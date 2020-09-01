@@ -47,7 +47,7 @@ const Section = ({
             style={{
               marginBottom: '20px',
               marginTop: '20px',
-              fontWeight: '1000'
+              fontWeight: 'bolder'
             }}
           >
             {title}
