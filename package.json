@@ -1,0 +1,90 @@
+{
+  "name": "africahacks-2020",
+  "version": "0.0.1",
+  "description": "Canada-Africa Sustainability edition",
+  "author": "uchi4jah",
+  "license": "Uchi Uchibeke",
+  "repository": "uchibeke/africahacks-2020",
+  "engines": {
+    "node": ">=10"
+  },
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@shopify/function-enhancers": "^1.0.10",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^10.4.5",
+    "@testing-library/user-event": "^12.0.11",
+    "@types/jest": "^26.0.4",
+    "@types/lodash": "^4.14.157",
+    "@types/node": "^14.0.22",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.0.0",
+    "clsx": "latest",
+    "csvtojson": "^2.0.10",
+    "firebase": "^7.19.1",
+    "lodash": "^4.17.19",
+    "lottie-react": "^2.0.0",
+    "mongodb": "^3.6.0",
+    "next": "latest",
+    "next-auth": "^3.1.0",
+    "node-fetch": "^2.6.0",
+    "prop-types": "latest",
+    "puppeteer": "^5.1.0",
+    "puppeteer-cluster": "^0.21.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-firebase-file-uploader": "^2.4.3",
+    "react-helmet": "^6.1.0",
+    "react-sticky": "^6.0.3",
+    "react-tiny-link": "^3.5.0",
+    "uuid": "^8.2.0",
+    "video-react": "^0.14.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "babel-eslint": "^10.0.3",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.4",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
