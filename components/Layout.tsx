@@ -8,18 +8,18 @@ import Nav from './nav'
 import theme from '../components/theme'
 
 const links = [
+  // {
+  //   name: 'about ',
+  //   url: 'https://www.africahacks.com/about-africahacks/',
+  //   target: '_blank'
+  // },
   {
-    name: 'about ',
-    url: 'https://www.africahacks.com/about-africahacks/',
-    target: '_blank'
-  },
-  {
-    name: 'africahacks.com',
+    name: 'start by africaHacks',
     url: 'https://africahacks.com/',
     target: '_blank'
   },
   {
-    name: 'start by africaHacks',
+    name: 'africahacks.com',
     url: 'https://africahacks.com/',
     target: '_blank'
   }
@@ -56,15 +56,10 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexDirection: 'column',
     minHeight: '100vh'
-    // background: `url(
-    //   'http://nanuric.com/wp-content/uploads/2020/07/Black-Stroked-Box.png'
-    // )`,
-    // backgroundRepeat: 'repeat'
   },
   main: {
     paddingTop: theme.spacing(2),
     paddingBottom: theme.spacing(2)
-    // background: 'white'
   },
   footer: {
     padding: theme.spacing(2, 2),

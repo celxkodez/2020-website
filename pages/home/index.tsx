@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography, Grid, Container } from '@material-ui/core'
-import { useTheme } from '@material-ui/core/styles'
+import { useTheme, makeStyles } from '@material-ui/core/styles'
 
 import Layout from '../../components/Layout'
 import Lottie from 'lottie-react'
@@ -19,6 +19,43 @@ import { faq } from '../../utils/copy.en'
  * Shopify: https://github.com/Shopify/quilt
  * */
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    flexDirection: 'column',
+    minHeight: '100vh'
+  },
+  main: {
+    paddingTop: theme.spacing(2),
+    paddingBottom: theme.spacing(2)
+  },
+  footer: {
+    padding: theme.spacing(2, 2),
+    marginTop: 'auto',
+    borderTop: `1px solid ${
+      theme.palette.type === 'light'
+        ? theme.palette.grey[200]
+        : theme.palette.grey[800]
+    }`,
+    backgroundColor:
+      theme.palette.type === 'light'
+        ? theme.palette.grey[200]
+        : theme.palette.grey[800]
+  },
+  logo: {
+    width: '60px',
+    cursor: 'pointer'
+  },
+  title: {
+    marginBottom: '20px',
+    marginTop: '20px',
+    fontWeight: 'bolder',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '30pt'
+    }
+  }
+}))
+
 const Section = ({
   title = 'AfricaHacks Virtual Hackathon',
   content = 'another one',
@@ -26,6 +63,7 @@ const Section = ({
   animation = animationData
 }: any) => {
   const theme = useTheme()
+  const classes = useStyles()
   return (
     <Container
       style={{
@@ -41,15 +79,7 @@ const Section = ({
     >
       <Grid container>
         <Grid xs={12} sm={8}>
-          <Typography
-            component='h3'
-            variant='h2'
-            style={{
-              marginBottom: '20px',
-              marginTop: '20px',
-              fontWeight: 'bolder'
-            }}
-          >
+          <Typography component='h3' variant='h2' className={classes.title}>
             {title}
           </Typography>
           <Typography component='p' variant='body1'>
@@ -73,7 +103,7 @@ const App = () => {
   React.useEffect(() => {}, [])
 
   const welcome = {
-    title: <span>AfricaHacks 2020</span>,
+    title: 'AfricaHacks 2020',
     content: (
       <Typography className='' variant='subtitle1'>
         - Online Dec 5 - 11
@@ -116,7 +146,7 @@ const App = () => {
   const faqSection = {
     title: <span>F.A.Q</span>,
     content: faq.body.map((f) => (
-      <>
+      <div key={f.question}>
         <Typography className='' variant='h5'>
           {f.question}
         </Typography>
@@ -125,7 +155,7 @@ const App = () => {
         </Typography>
         <br />
         <br />
-      </>
+      </div>
     ))
   }
 
