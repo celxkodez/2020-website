@@ -187,12 +187,6 @@ export const sponsors = [
     name: 'Wolfram'
   },
   {
-    imgSrc: 'https://naijahacks.com/2018/res/sponsors/lushplans.png',
-    link: 'https://lushplans.com',
-    tier: 'silver',
-    name: 'Lush Plans'
-  },
-  {
     imgSrc: 'https://cdn.worldvectorlogo.com/logos/axure-2.svg',
     link: 'https://www.axure.com/',
     tier: 'silver',
@@ -204,12 +198,6 @@ export const sponsors = [
     link: 'https://egghead.io',
     tier: 'silver',
     name: 'Egghead.io'
-  },
-  {
-    imgSrc: 'https://naijahacks.com/2018/res/sponsors/techher.png',
-    link: 'https://techherng.com/',
-    tier: 'silver',
-    name: 'TechHer'
   },
   {
     imgSrc: 'https://naijahacks.com/2018/res/sponsors/digitalocean.png',
