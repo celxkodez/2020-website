@@ -131,13 +131,6 @@ export const sponsors = [
     name: 'Balsamiq'
   },
   {
-    name: 'Dotts Media',
-    tier: 'media',
-    imgSrc:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ0KgyfriU19DYyDnhmd4NMRXUeNhz4q5olRvZEifPF_pvXmnk',
-    link: 'https://dottsmediahouse.com/'
-  },
-  {
     name: 'BizSkills Academy',
     tier: 'startup',
     imgSrc:
@@ -164,12 +157,6 @@ export const sponsors = [
     name: 'StemHub Foundation'
   },
   {
-    imgSrc: 'https://naijahacks.com/2018/res/sponsors/ivorymark.png',
-    link: 'http://ivorymark.com/',
-    tier: 'silver',
-    name: 'IvoryMark NG'
-  },
-  {
     imgSrc: 'https://naijahacks.com/2018/res/sponsors/twilio.png',
     link: 'https://www.twilio.com/',
     tier: 'bronze',
@@ -194,12 +181,6 @@ export const sponsors = [
     name: 'Sketch'
   },
   {
-    imgSrc: 'https://naijahacks.com/2018/res/sponsors/trippy.png',
-    link: 'https://www.instagram.com/trippy_socks/',
-    tier: 'silver',
-    name: 'Trippy Socks'
-  },
-  {
     imgSrc: 'https://naijahacks.com/2018/res/sponsors/wolfram.png',
     link: 'https://www.wolfram.com/',
     tier: 'silver',
@@ -210,13 +191,6 @@ export const sponsors = [
     link: 'https://lushplans.com',
     tier: 'silver',
     name: 'Lush Plans'
-  },
-  {
-    imgSrc:
-      'https://stories.pitchdrive.xyz/wp-content/uploads/2019/09/TechCabal-1.png',
-    link: 'https://techcabal.com',
-    tier: 'bronze',
-    name: 'TechCabal'
   },
   {
     imgSrc: 'https://cdn.worldvectorlogo.com/logos/axure-2.svg',
@@ -230,12 +204,6 @@ export const sponsors = [
     link: 'https://egghead.io',
     tier: 'silver',
     name: 'Egghead.io'
-  },
-  {
-    imgSrc: Pepsi,
-    link: 'https://twitter.com/Pepsi_Naija',
-    tier: 'silver',
-    name: 'Pepsi'
   },
   {
     imgSrc: 'https://naijahacks.com/2018/res/sponsors/techher.png',
@@ -260,12 +228,6 @@ export const sponsors = [
     link: 'https://www.printivo.com/',
     tier: 'silver',
     name: 'Printivo'
-  },
-  {
-    imgSrc: 'https://naijahacks.com/2018/res/sponsors/gimme.png',
-    link: '/',
-    tier: 'silver',
-    name: 'Oh Woh popcorn'
   },
   {
     imgSrc:
