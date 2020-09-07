@@ -25,26 +25,23 @@ const Section = ({ title, desc, maxWidth = 'sm' }: any) => {
 }
 
 const About = () => {
-  const name = 'About us'
+  const name = 'About AfricaHacks 2020'
 
   return (
     <Layout>
-      <PageHeader
-        name={name}
-        subHeader='Why did we create a platform to discover web monetization and web-monetized content'
-      />
+      <PageHeader name={name} subHeader='Why are we doing AfricaHacks 2020' />
 
       <Section
         title='Motivation'
-        desc='The ability to earn money for content you create has long been a struggle for many. As a result, many companies have used content created by Creators as a means to earn revenue from Ads. Creators make only a fraction of the revenue, and users have a poor user experience because they are obstructed with Ads. dTangle lets content creators share their content and users to discover and enjoy the content without Ads.'
+        desc='The ability to quickly validate an idea in a fun and welcoming setting has long been elusive for many. As a result, many organizations have used Hackathons to bring creators, developers, makers, and others together to build products. However, the organizers do not support the projects after the Hackathon, and in most cases, beginners are left out. AfricaHacks 2020 will be the first time Africa and North American creators, developers, and makers meet together to build projects with support from experts worldwide. Participants will be supported before the event, during the event, and after the event for FREE.'
       />
       <Section
         title='Who we are'
-        desc='We are Engineers, Product Managers, and Data Scientists who have come together behind a mission to create innovative products and services for the future of earning and living.            '
+        desc="We are avid Hackathon goers, Makers, Creators, and Developers who have come together behind a mission to enable African and black youth to get the support to thrive as creators, makers, and developers. AfricaHacks was founded by Uchi Uchibeke after founding NaijaHacks, Africa's Largest Hackathon"
       />
       <Section
         title='Why now?'
-        desc='We believe that users should earn the majority of the value generated from their individual and collective contributions to the physical and digital world. When users create content, they should be paid when that content adds value to others. They should be able to own and authorize or deny access to the information that they create.'
+        desc='We believe that the location, family, or other situation should not determine if youth can build a company.  As technology unites the world, this is the first time that people from anywhere can truly connect virtually to co-create and co-innovate to make their lives, the lives of their families, and the world better.'
       />
     </Layout>
   )

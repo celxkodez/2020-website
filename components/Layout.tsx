@@ -2,30 +2,36 @@ import React from 'react'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { Typography, Link, Container, Divider } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
+import { useRouter } from 'next/router'
 
 import { ThemeProvider } from '@material-ui/styles'
 import Nav from './nav'
 import theme from '../components/theme'
 
-const links = [
-  // {
-  //   name: 'about ',
-  //   url: 'https://www.africahacks.com/about-africahacks/',
-  //   target: '_blank'
-  // },
-  {
-    name: 'start by africaHacks',
-    url: 'https://africahacks.com/',
-    target: '_blank'
-  },
-  {
-    name: 'africahacks.com',
-    url: 'https://africahacks.com/',
-    target: '_blank'
-  }
-]
-
 function FooterNavs() {
+  const router = useRouter()
+  const links = [
+    router.pathname === '/about'
+      ? {
+          name: 'home',
+          url: '/'
+        }
+      : {
+          name: 'about',
+          url: '/about'
+        },
+    {
+      name: 'start by africaHacks',
+      url: 'https://start.africahacks.com/',
+      target: '_blank'
+    },
+    {
+      name: 'africahacks.com',
+      url: 'https://africahacks.com/',
+      target: '_blank'
+    }
+  ]
+
   return (
     <Typography variant='body2' color='textSecondary'>
       {links.map(({ name, url, target }) => (

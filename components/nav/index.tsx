@@ -2,7 +2,7 @@ import React from 'react'
 import { useSession } from 'next-auth/client'
 import { Container } from '@material-ui/core'
 
-const logo = '/static/assets/images/white-full.png'
+const logo = '/static/assets/images/black-logo.png'
 /**
  * The approach used in this component shows how to built a sign in and sign out
  * component that works on pages which support both client and server side

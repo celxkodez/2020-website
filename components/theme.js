@@ -7,16 +7,16 @@ const theme = createMuiTheme({
     error: {
       main: red.A400
     },
-    type: 'dark',
+    // type: 'dark',
     primary: {
       // light: will be calculated from palette.primary.main,
-      main: '#FFFF00'
+      main: '#4B2DBB'
       // dark: will be calculated from palette.primary.main,
       // contrastText: will be calculated to contrast with palette.primary.main
     },
     secondary: {
       // light: '#0066ff',
-      main: '#4B2DBB'
+      main: '#FFFF00'
       // dark: will be calculated from palette.secondary.main,
       // contrastText: '#ffcc00'
     },

@@ -117,7 +117,7 @@ export default function MyApp(props) {
             rel='noopener noreferrer'
           >
             <img
-              src='https://africahacks-assets.s3.amazonaws.com/approval-badge/black.svg'
+              src='https://africahacks-assets.s3.amazonaws.com/approval-badge/white.svg'
               alt='Approved African Hackathon. AfricaHacks Member Event'
               // style='width:100%'
               id='african-hackathon-africahacks-member-badge'

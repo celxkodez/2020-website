@@ -96,3 +96,195 @@ export const faq = {
     }
   ]
 }
+
+// const logo = '/static/assets/images/black-logo.png'
+const NexmoLogoImg = '/static/assets/sponsors/2019/Nexmo_VonageAPI_vert.png'
+const AWSLogoImg = '/static/assets/sponsors/2019/aws.png'
+const SketchLogoImg = '/static/assets/sponsors/2019/sketch.png'
+const OnePassword = '/static/assets/sponsors/2019/1Password.png'
+const XYZDomains = '/static/assets/sponsors/2019/xyz.png'
+const Pepsi = '/static/assets/sponsors/2019/pepsi.png'
+
+export const sponsors = [
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/linode.png',
+    link: 'https://www.linode.com/',
+    tier: 'gold',
+    name: 'Linode'
+  },
+  {
+    imgSrc: NexmoLogoImg,
+    link: 'https://nexmo.com',
+    tier: 'gold',
+    name: 'Nexmo'
+  },
+  {
+    imgSrc: AWSLogoImg,
+    link: 'https://www.aws.com/',
+    tier: 'gold',
+    name: 'Amazon'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/balsamiq.png',
+    link: 'https://balsamiq.com/',
+    tier: 'silver',
+    name: 'Balsamiq'
+  },
+  {
+    name: 'Dotts Media',
+    tier: 'media',
+    imgSrc:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ0KgyfriU19DYyDnhmd4NMRXUeNhz4q5olRvZEifPF_pvXmnk',
+    link: 'https://dottsmediahouse.com/'
+  },
+  {
+    name: 'BizSkills Academy',
+    tier: 'startup',
+    imgSrc:
+      'https://i2.wp.com/www.africahacks.com/wp-content/uploads/2020/03/BizSkills-Academy-Logo.png?w=1600&ssl=1',
+    link: 'https://www.bizskillsacademy.com/'
+  },
+  {
+    tier: 'gaming',
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/isabiplay.png',
+    link: 'https://isabiplay.com/',
+    name: 'iSabiPlay'
+  },
+  {
+    imgSrc:
+      'https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/2661/r0mjZTxOTjmP9vbv2Ypl',
+    link: 'https://particle.io',
+    tier: 'silver',
+    name: 'Particle'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/stemhubfoundation.png',
+    link: 'https://stemhubfoundation.com',
+    tier: 'silver',
+    name: 'StemHub Foundation'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/ivorymark.png',
+    link: 'http://ivorymark.com/',
+    tier: 'silver',
+    name: 'IvoryMark NG'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/twilio.png',
+    link: 'https://www.twilio.com/',
+    tier: 'bronze',
+    name: 'Twilio'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/stickermule.png',
+    link: 'https://mule.to/NaijaHacks',
+    tier: 'bronze',
+    name: 'Stickermule'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/jetbrains.png',
+    link: 'http://jetbrains.com/',
+    tier: 'silver',
+    name: 'Jetbrains'
+  },
+  {
+    imgSrc: SketchLogoImg,
+    link: 'https://www.sketch.com',
+    tier: 'silver',
+    name: 'Sketch'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/trippy.png',
+    link: 'https://www.instagram.com/trippy_socks/',
+    tier: 'silver',
+    name: 'Trippy Socks'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/wolfram.png',
+    link: 'https://www.wolfram.com/',
+    tier: 'silver',
+    name: 'Wolfram'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/lushplans.png',
+    link: 'https://lushplans.com',
+    tier: 'silver',
+    name: 'Lush Plans'
+  },
+  {
+    imgSrc:
+      'https://stories.pitchdrive.xyz/wp-content/uploads/2019/09/TechCabal-1.png',
+    link: 'https://techcabal.com',
+    tier: 'bronze',
+    name: 'TechCabal'
+  },
+  {
+    imgSrc: 'https://cdn.worldvectorlogo.com/logos/axure-2.svg',
+    link: 'https://www.axure.com/',
+    tier: 'silver',
+    name: 'Axure'
+  },
+  {
+    imgSrc:
+      'https://raw.githubusercontent.com/eggheadio/egghead-brand/master/Egghead-Logo-Dark.png',
+    link: 'https://egghead.io',
+    tier: 'silver',
+    name: 'Egghead.io'
+  },
+  {
+    imgSrc: Pepsi,
+    link: 'https://twitter.com/Pepsi_Naija',
+    tier: 'silver',
+    name: 'Pepsi'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/techher.png',
+    link: 'https://techherng.com/',
+    tier: 'silver',
+    name: 'TechHer'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/digitalocean.png',
+    link: 'https://digitalocean.com/',
+    tier: 'silver',
+    name: 'DigitalOcean'
+  },
+  {
+    imgSrc: XYZDomains,
+    link: 'https://gen.xyz/',
+    tier: 'silver',
+    name: '.XYZ Domains'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/printivo.png',
+    link: 'https://www.printivo.com/',
+    tier: 'silver',
+    name: 'Printivo'
+  },
+  {
+    imgSrc: 'https://naijahacks.com/2018/res/sponsors/gimme.png',
+    link: '/',
+    tier: 'silver',
+    name: 'Oh Woh popcorn'
+  },
+  {
+    imgSrc:
+      'https://4.bp.blogspot.com/-sn_1frB-tto/W_eevs6kyzI/AAAAAAAANhE/ZPlkvH6ysTAMuBJlbtYsSxkC28xaRrZugCLcBGAs/s1600/PCBWay%2BTlogo.png',
+    link: 'https://pcbway.com',
+    tier: 'silver',
+    name: 'PCBWay'
+  },
+  {
+    imgSrc: OnePassword,
+    link: '1Password.com',
+    tier: 'bronze',
+    name: '1Password'
+  }
+  // {
+  //   imgSrc:
+  //     "https://uploads-ssl.webflow.com/5bddf05642686caf6d17eb58/5cf52c37420081eec94ed662_VF_Logo_Black.png",
+  //   link: "https://voiceflow.com",
+  //   tier: "silver",
+  //   name: "Voiceflow"
+  // },
+]
