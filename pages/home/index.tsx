@@ -83,6 +83,7 @@ const useStyles = makeStyles((theme) => ({
       maxHeight: '100px',
       padding: theme.spacing(2, 2)
     }
+    // filter: `grayscale(100%)`
   },
   button: {
     height: '60px',
@@ -105,8 +106,8 @@ const Section = ({
         marginTop: '0px',
         marginBottom: '80px',
         borderRadius: '30px',
-        background: ' #fafafa',
-        boxShadow: '20px 20px 60px #d5d5d5, -20px -20px 60px #ffffff;',
+        background: ' #F2CF1D',
+        boxShadow: '20px 20px 60px #ceb019, -20px -20px 60px #ffee21',
         padding: '50px',
         paddingBottom: '100px'
       }}
@@ -169,7 +170,7 @@ const App = () => {
   }
 
   const why = {
-    title: `A different kind if Hackathon`,
+    title: `A different kind of Hackathon`,
     content: (
       <Typography className='' variant='subtitle1'>
         We aim to get 50% women, create an inclusive Hackathon via our beginner

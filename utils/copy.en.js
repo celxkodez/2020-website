@@ -162,12 +162,12 @@ export const sponsors = [
     tier: 'bronze',
     name: 'Twilio'
   },
-  {
-    imgSrc: 'https://naijahacks.com/2018/res/sponsors/stickermule.png',
-    link: 'https://mule.to/NaijaHacks',
-    tier: 'bronze',
-    name: 'Stickermule'
-  },
+  // {
+  //   imgSrc: 'https://naijahacks.com/2018/res/sponsors/stickermule.png',
+  //   link: 'https://mule.to/NaijaHacks',
+  //   tier: 'bronze',
+  //   name: 'Stickermule'
+  // },
   {
     imgSrc: 'https://naijahacks.com/2018/res/sponsors/jetbrains.png',
     link: 'http://jetbrains.com/',

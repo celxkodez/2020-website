@@ -37,7 +37,7 @@ const About = () => {
       />
       <Section
         title='Who we are'
-        desc="We are avid Hackathon goers, Makers, Creators, and Developers who have come together behind a mission to enable African and black youth to get the support to thrive as creators, makers, and developers. AfricaHacks was founded by Uchi Uchibeke after founding NaijaHacks, Africa's Largest Hackathon"
+        desc="We are avid Hackathon goers, Makers, Creators, and Developers who have come together behind a mission to enable African and black youth to get the support to thrive as creators, makers, and developers. AfricaHacks was founded by Uchi Uchibeke after founding NaijaHacks, Africa's Largest Hackathon, and Christine Dikongué."
       />
       <Section
         title='Why now?'

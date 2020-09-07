@@ -17,16 +17,16 @@ function FooterNavs() {
           url: '/'
         }
       : {
-          name: 'about',
+          name: 'About',
           url: '/about'
         },
     {
-      name: 'start by africaHacks',
+      name: 'Start',
       url: 'https://start.africahacks.com/',
       target: '_blank'
     },
     {
-      name: 'africahacks.com',
+      name: 'Africahacks.com',
       url: 'https://africahacks.com/',
       target: '_blank'
     }
@@ -68,17 +68,17 @@ const useStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(2)
   },
   footer: {
-    padding: theme.spacing(2, 2),
+    padding: theme.spacing(0, 2),
     marginTop: 'auto',
-    borderTop: `1px solid ${
-      theme.palette.type === 'light'
-        ? theme.palette.grey[200]
-        : theme.palette.grey[800]
-    }`,
+    // borderTop: `1px solid ${
+    //   theme.palette.type === 'light'
+    //     ? theme.palette.grey[200]
+    //     : theme.palette.grey[800]
+    // }`,
     backgroundColor:
       theme.palette.type === 'light'
-        ? theme.palette.grey[200]
-        : theme.palette.grey[800]
+        ? theme.palette.background[200]
+        : theme.palette.background[800]
   },
   logo: {
     width: '60px',
@@ -96,6 +96,7 @@ export default function StickyFooter({ children }) {
         <Nav />
         <Container maxWidth='lg'>{children}</Container>
       </div>
+      <Line />
       <footer className={classes.footer}>
         <Container maxWidth={false} disableGutters>
           <FooterNavs />
@@ -106,6 +107,7 @@ export default function StickyFooter({ children }) {
             AfricaHacks to inspire a new generation of Nigerians and Africans to
             be makers, leaders and innovators.
           </Typography>
+          <br />
           {/* <Copyright /> */}
         </Container>
       </footer>
