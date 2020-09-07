@@ -148,6 +148,8 @@ const App = () => {
         <Typography className='' variant='h5'>
           North America-Africa Sustainability edition
         </Typography>
+        largest black tech innovation competition
+        <br />
         - Online Dec 5 - 11
         <br />
         - Demo day Dec 12, 2020

@@ -39,8 +39,8 @@ export default function MyApp(props) {
 
           <meta name='monetization' content='$ilp.uphold.com/B3wYJrpHiUyQ' />
           <title>
-            AfricaHacks Virtual Hackathon - 2020 Canada-Africa Sustainability
-            edition
+            AfricaHacks Hackathon - Largest Global Black Tech Innovation
+            competition and coonference
           </title>
           <meta
             name='description'
@@ -50,13 +50,13 @@ export default function MyApp(props) {
           {/* <!-- OG --> */}
           <meta
             property='og:title'
-            content='AfricaHacks Virtual Hackathon - 2020 Canada-Africa Sustainability edition'
+            content='AfricaHacks Hackathon - Largest Global Black Tech Innovation competition and coonference'
           />
           <meta property='og:type' content='website' />
           <meta property='og:url' content='https://hackathon.africahacks.com' />
           <meta
             property='og:description'
-            content="AfricaHacks is Largest black Tech Innovation competition and Africa's largest Hackathon founded by Uchi Uchibeke"
+            content="AfricaHacks is Largest Black Tech Innovation competition and Africa's largest Hackathon founded by Uchi Uchibeke"
           />
           <meta
             property='og:image'
@@ -71,7 +71,7 @@ export default function MyApp(props) {
           {/* <!-- Twitter --> */}
           <meta
             name='twitter:title'
-            content='AfricaHacks Virtual Hackathon - 2020 Canada-Africa Sustainability edition'
+            content='AfricaHacks Hackathon - Largest Global Black Tech Innovation competition and coonference'
           />
           <meta
             name='twitter:description'
