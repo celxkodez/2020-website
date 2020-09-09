@@ -1,13 +1,19 @@
 import React from 'react'
 import { Typography, Grid, Container, Button } from '@material-ui/core'
 import { useTheme, makeStyles } from '@material-ui/core/styles'
+import { useI18n } from '@shopify/react-i18n'
 
 import Layout from '../../components/Layout'
 import Lottie from 'lottie-react'
 import animationData from '../../public/static/assets/animations/train.json'
 import pallbearers from '../../public/static/assets/animations/pallbearers.json'
 import group from '../../public/static/assets/animations/group.json'
-import { faq, sponsors } from '../../utils/copy.en'
+import { sponsors } from '../../utils/copy.en'
+
+import en from '../../utils/locales/en.json'
+import fr from '../../utils/locales/fr.json'
+import enFAQ from '../../utils/locales/faq/en.json'
+import frFAQ from '../../utils/locales/faq/fr.json'
 
 // import Link from '../../components/Link'
 
@@ -141,19 +147,30 @@ const App = () => {
   React.useEffect(() => {}, [])
   const classes = useStyles()
   const mailtoLink = `mailto:team@africhacks.com?subject=AfricaHacks%202020%20Partnership&body=Hi%2C%20I%20will%20like%20to%20partner%20with%20you`
+  const [i18n] = useI18n({
+    id: 'NotFound',
+    fallback: en,
+    translations(locale) {
+      if (locale === 'en') {
+        return en
+      } else if (locale === 'fr') {
+        return fr
+      }
+    }
+  })
 
   const welcome = {
-    title: 'AfricaHacks 2020',
+    title: i18n.translate('Home.title'),
     content: (
       <Typography className='' variant='subtitle1'>
         <Typography className='' variant='h5'>
-          North America-Africa Sustainability edition
+          {i18n.translate('Home.subTitle')}
         </Typography>
-        Largest Global Black Tech Innovation Competition
+        {i18n.translate('Home.largest')}
         <br />
-        - Online Dec 5 - 11
+        {i18n.translate('Home.online')}
         <br />
-        - Demo day Dec 12, 2020
+        {i18n.translate('Home.demoDay')}
         <br />
         <br />
         <Button
@@ -162,7 +179,7 @@ const App = () => {
           className={classes.button}
           href={mailtoLink}
         >
-          Partner with us
+          {i18n.translate('Home.partnerWithUs')}
         </Button>
       </Typography>
     ),
@@ -170,40 +187,41 @@ const App = () => {
   }
 
   const why = {
-    title: `A different kind of Hackathon`,
+    title: i18n.translate('Home.differentKind'),
     content: (
       <Typography className='' variant='subtitle1'>
-        We aim to get 50% women, create an inclusive Hackathon via our beginner
-        category, and create a sustainable impact by working with top teams
-        post-hackathon in the{' '}
+        {i18n.translate('Home.weAim')}{' '}
         <a
           href='https://africahacks.com/startups'
           target='_blank'
           rel='noopener noreferrer'
         >
-          AfricaHacks Startup creation program
+          {i18n.translate('Home.startupCreation')}
         </a>
         .
         <br />
         <br />
-        Unlike other Hackathons, we follow up, match participants to companies
-        and mentors and support the projects that come out of AfricaHacks
-        Hackathon. Join us this year!
+        {i18n.translate('Home.weFollowUp')}
         <br />
         <br />
-        We are the Largest black Tech Innovation competition in the world.
+        {i18n.translate('Home.largestBlackHackathon')}
         <br />
         <br />
         <Typography className='' variant='h5' style={{ fontWeight: 'bolder' }}>
-          Get Excited to learn, connect and create
+          {i18n.translate('Home.excitedTo')}
         </Typography>
       </Typography>
     ),
     animation: group
   }
+  const faqs = {
+    en: enFAQ,
+    fr: frFAQ
+  }
+  const faq = faqs[i18n.locale]
   const faqSection = {
     title: `F.A.Q`,
-    content: faq.body.map((f) => (
+    content: faq.map((f) => (
       <div key={f.question}>
         <Typography className='' variant='h5'>
           {f.question}
