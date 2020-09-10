@@ -236,7 +236,7 @@ const App = () => {
     animation: animationData
   }
   const sponsorSection = {
-    title: `Past Sponsors`,
+    title: i18n.translate('Home.pastSponsors'),
     content: (
       <div className={classes.imageDiv}>
         {sponsors.map((s) => (
