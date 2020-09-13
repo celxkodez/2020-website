@@ -8,6 +8,7 @@ import Lottie from 'lottie-react'
 import animationData from '../../public/static/assets/animations/train.json'
 import pallbearers from '../../public/static/assets/animations/pallbearers.json'
 import group from '../../public/static/assets/animations/group.json'
+import cloud from '../../public/static/assets/animations/cloud.json'
 import { sponsors } from '../../utils/copy.en'
 
 import en from '../../utils/locales/en.json'
@@ -186,7 +187,7 @@ const App = () => {
         </Button>
       </Typography>
     ),
-    animation: pallbearers
+    animation: cloud
   }
 
   const why = {
@@ -215,7 +216,7 @@ const App = () => {
         </Typography>
       </Typography>
     ),
-    animation: group
+    animation: pallbearers
   }
   const faqs = {
     en: enFAQ,
