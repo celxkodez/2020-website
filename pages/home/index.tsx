@@ -58,12 +58,12 @@ const useStyles = makeStyles((theme) => ({
     cursor: 'pointer'
   },
   title: {
-    marginBottom: '20px',
     marginTop: '20px',
     fontWeight: 'bolder',
     [theme.breakpoints.down('sm')]: {
-      fontSize: '30pt'
-    }
+      fontSize: '21pt'
+    },
+    marginBottom: '0px'
   },
   imageDiv: {
     maxWidth: '100%',
@@ -114,7 +114,7 @@ const Section = ({
         borderRadius: '30px',
         background: ' #F2CF1D',
         boxShadow: '20px 20px 60px #ceb019, -20px -20px 60px #ffee21',
-        padding: '50px',
+        padding: '10px 30px 30px',
         paddingBottom: '100px'
       }}
       maxWidth={maxWidth}
@@ -166,7 +166,9 @@ const App = () => {
         <Typography className='' variant='h5'>
           {i18n.translate('Home.subTitle')}
         </Typography>
+        <br />
         {i18n.translate('Home.largest')}
+        <br />
         <br />
         {i18n.translate('Home.online')}
         <br />
@@ -177,6 +179,7 @@ const App = () => {
           variant='contained'
           color='primary'
           className={classes.button}
+          size='small'
           href={mailtoLink}
         >
           {i18n.translate('Home.partnerWithUs')}

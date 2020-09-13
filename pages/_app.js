@@ -50,18 +50,18 @@ export default function MyApp(props) {
 
             <meta name='monetization' content='$ilp.uphold.com/B3wYJrpHiUyQ' />
             <title>
-              AfricaHacks Hackathon - Largest Global Black Tech Innovation
-              competition and coonference
+              AfricaHacks Hackathon - Largest Global Tech Innovation competition
+              and coonference for people of African descent
             </title>
             <meta
               name='description'
-              content="AfricaHacks is Largest black Tech Innovation competition and Africa's largest Hackathon founded by Uchi Uchibeke"
+              content="AfricaHacks is Africa's largest Hackathon founded by Uchi Uchibeke and the first time people of African descent meet in the cloud to innovate, compete and learn together"
             />
 
             {/* <!-- OG --> */}
             <meta
               property='og:title'
-              content='AfricaHacks Hackathon - Largest Global Black Tech Innovation competition and coonference'
+              content='AfricaHacks Hackathon - Largest Global Tech Innovation competition and coonference for people of African descent'
             />
             <meta property='og:type' content='website' />
             <meta
@@ -70,7 +70,7 @@ export default function MyApp(props) {
             />
             <meta
               property='og:description'
-              content="AfricaHacks is Largest Black Tech Innovation competition and Africa's largest Hackathon founded by Uchi Uchibeke"
+              content="AfricaHacks is Africa's largest Hackathon founded by Uchi Uchibeke and the first time people of African descent meet in the cloud to innovate, compete and learn together"
             />
             <meta
               property='og:image'
@@ -88,11 +88,11 @@ export default function MyApp(props) {
             {/* <!-- Twitter --> */}
             <meta
               name='twitter:title'
-              content='AfricaHacks Hackathon - Largest Global Black Tech Innovation competition and coonference'
+              content='AfricaHacks Hackathon - Largest Global Tech Innovation competition and coonference for people of African descent'
             />
             <meta
               name='twitter:description'
-              content="AfricaHacks is Largest black Tech Innovation competition and Africa's largest Hackathon founded by Uchi Uchibeke"
+              content="AfricaHacks is Africa's largest Hackathon founded by Uchi Uchibeke and the first time people of African descent meet in the cloud to innovate, compete and learn together"
             />
             <meta
               name='twitter:image'

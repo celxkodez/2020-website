@@ -41,6 +41,7 @@
     "react-cookie": "^4.0.3",
     "react-dom": "latest",
     "react-firebase-file-uploader": "^2.4.3",
+    "react-fullstory": "^1.4.0",
     "react-helmet": "^6.1.0",
     "react-sticky": "^6.0.3",
     "react-tiny-link": "^3.5.0",

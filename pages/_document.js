@@ -2,7 +2,11 @@ import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheets } from '@material-ui/core/styles'
 import theme from '../components/theme'
+import FullStory from 'react-fullstory'
 
+const AHORG = 'SCKTM'
+const NHORG = 'DYY6W'
+const FS_ORG_ID = NHORG // Fill this in here
 export default class MyDocument extends Document {
   render() {
     return (
@@ -19,6 +23,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <FullStory org={FS_ORG_ID} />
       </Html>
     )
   }

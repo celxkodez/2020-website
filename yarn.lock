@@ -6537,6 +6537,11 @@ react-firebase-file-uploader@^2.4.3:
   dependencies:
     uuid "^3.2.1"
 
+react-fullstory@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-fullstory/-/react-fullstory-1.4.0.tgz#eec34cb9790e2e1f78e97e23306a3ca460276da9"
+  integrity sha512-lMYTFfgcG1w0XXGHDM9beP/Is56Mct9OjBMRAqY5bmeKVxWnQjHDgmJff1jmakq6w3Wr5fX2UvBSP1RcNwTV1A==
+
 react-helmet@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"

@@ -38,11 +38,11 @@ function FooterNavs() {
   const links = [
     router.pathname === '/about'
       ? {
-          name: 'home',
+          name: i18n.translate('Footer.home'),
           url: '/'
         }
       : {
-          name: i18n.translate('Footer.home'),
+          name: i18n.translate('Footer.about'),
           url: '/about'
         },
     {
